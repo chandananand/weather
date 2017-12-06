@@ -14,6 +14,7 @@
 		AF7FD7C41FD7B1900070693E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7FD7C21FD7B1900070693E /* LaunchScreen.storyboard */; };
 		AF7FD7CF1FD7B1900070693E /* weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FD7CE1FD7B1900070693E /* weatherTests.swift */; };
 		AF7FD7DA1FD7B1900070693E /* weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7FD7D91FD7B1900070693E /* weatherUITests.swift */; };
+		AF7FD7EC1FD7B9E00070693E /* giphy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AF7FD7EB1FD7B9E00070693E /* giphy.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		AF7FD7D51FD7B1900070693E /* weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7FD7D91FD7B1900070693E /* weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITests.swift; sourceTree = "<group>"; };
 		AF7FD7DB1FD7B1900070693E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7FD7E91FD7B9460070693E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AF7FD7EB1FD7B9E00070693E /* giphy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giphy.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 				AF7FD7CD1FD7B1900070693E /* weatherTests */,
 				AF7FD7D81FD7B1900070693E /* weatherUITests */,
 				AF7FD7B71FD7B1900070693E /* Products */,
+				AF7FD7E81FD7B9460070693E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +107,7 @@
 				AF7FD7C01FD7B1900070693E /* Assets.xcassets */,
 				AF7FD7C21FD7B1900070693E /* LaunchScreen.storyboard */,
 				AF7FD7C51FD7B1900070693E /* Info.plist */,
+				AF7FD7EB1FD7B9E00070693E /* giphy.mp4 */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -123,6 +128,14 @@
 				AF7FD7DB1FD7B1900070693E /* Info.plist */,
 			);
 			path = weatherUITests;
+			sourceTree = "<group>";
+		};
+		AF7FD7E81FD7B9460070693E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7FD7E91FD7B9460070693E /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7FD7C41FD7B1900070693E /* LaunchScreen.storyboard in Resources */,
+				AF7FD7EC1FD7B9E00070693E /* giphy.mp4 in Resources */,
 				AF7FD7C11FD7B1900070693E /* Assets.xcassets in Resources */,
 				AF7FD7BF1FD7B1900070693E /* Main.storyboard in Resources */,
 			);
